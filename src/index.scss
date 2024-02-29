@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: rgb(214, 216, 219);
+}
+
+.ButtonCalc2X {
+    @apply w-[calc(50%-4px)] text-white h-[calc(20%-4px)] bg-primary flex justify-center items-center font-semibold m-[2px] border-[1px] border-slate-200 hover:opacity-75 hover:border-secondary hover:border-2;
+}
+
+.ButtonCalc1 {
+    @apply w-[calc(25%-4px)] text-white h-[calc(20%-4px)] bg-primary flex justify-center items-center font-semibold m-[2px] border-[1px] border-slate-200 hover:opacity-75 hover:border-secondary hover:border-2;
+}
+
+
+
+.ButtonCalc1B {
+    @apply text-white w-[calc(33.3%-4px)] h-[calc(50%-4px)] bg-primary flex justify-center items-center font-semibold m-[2px] border-[1px] border-slate-200 hover:opacity-75 hover:border-secondary hover:border-2 hover:box-border;
+}
+
+.ButtonCalc2XB {
+    @apply w-[calc(66.6%-4px)] text-white h-[calc(50%-4px)] bg-primary flex justify-center items-center font-semibold m-[2px] border-[1px] border-slate-200 hover:opacity-75 hover:border-secondary hover:border-2;
+}
+
+.ButtonCalc2YB {
+    @apply w-[calc(100%-4px)] text-white h-[calc(100%-4px)] bg-primary flex justify-center items-center font-semibold m-[2px] border-[1px] border-slate-200 hover:opacity-75 hover:border-secondary hover:border-2;
+}
